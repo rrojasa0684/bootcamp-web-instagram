@@ -1,0 +1,125 @@
+/* General Styles */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #fafafa;
+    padding-bottom: 200px;
+}
+
+.whitespace {
+    height: 150px;
+}
+
+/* Form Styles */
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 10px;
+}
+
+.form-container.registrate {
+    padding-bottom: 8px;
+}
+
+.container-1 {
+    padding: 20px;
+}
+
+.logo {
+    width: 195px;
+    margin: 0 auto 15px auto;
+    display: block;
+}
+
+.logo-mobile {
+    width: 160px;
+}
+
+.phone-image {
+    width: 100%;
+    max-width: 380px;
+}
+
+form {
+    padding: 20px;
+}
+
+form input.form-control {
+    background-color: #fafafa;
+    font-size: 12px;
+    padding: 20px 15px;
+    border: 1px solid transparent;
+}
+
+form input.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #222222;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+}
+
+.line {
+    width: 100px;
+    border-top: 1px solid #dddddd;
+}
+
+.letra {
+    color: #bbbbbb;
+    padding-top: 4px;
+    margin: 0 10px;
+}
+
+/* Footer Styles */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+footer a {
+    color: #00376b;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+/* Social Media Styles */
+.facebook-link > a {
+    display: block;
+    margin-top: 25px;
+    color: #385185;
+    font-size: 14px;
+}
+
+.facebook-link > a.font-small {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.fb-logo {
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* Additional Styles */
+a {
+    text-decoration: none;
+}
+
+.descargas, .form-container {
+    max-width: 350px;
+}
+
+.copyright {
+    color: #8e8e8e;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
